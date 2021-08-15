@@ -70,6 +70,7 @@ Page({
   },
 
   // 跳转至other页面
+  // 注意路径
   toOther() {
     wx.navigateTo({
       url: '/otherPackage/pages/other/other',
