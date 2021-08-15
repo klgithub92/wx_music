@@ -1,0 +1,6 @@
+/* 引进图标 */
+@import '/static/iconfont/iconfont.wxss';
+
+page {
+  height: 100%;
+}

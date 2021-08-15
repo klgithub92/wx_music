@@ -1,0 +1,136 @@
+/* pages/search/search.wxss */
+.searchContainer {
+  padding: 0 20rpx;
+}
+
+.searchContainer .header {
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 10rpx 0;
+}
+
+.searchContainer .header .searchInput {
+  position: relative;
+  flex: 1;
+  background: rgba(237,237,237,.3);
+  border-radius: 30rpx;
+}
+
+.searchInput .clear {
+  position: absolute;
+  right: 30rpx;
+  z-index: 10;
+  top: 0;
+  font-size: 28rpx;
+}
+
+.searchInput input {
+  margin-left: 40rpx;
+  margin-top: 5rpx;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.searchContainer .cancel {
+  width: 100rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.placeholder {
+  /* color: #dd4433; */
+  font-size: 28rpx;
+}
+
+/* 热搜榜区域 */
+.hotContainer .hotTitle {
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.hotList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotList .hotItem {
+  flex: 50%;
+  font-size: 26rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.hotList .hotItem .order {
+  margin: 0 10rpx;
+}
+
+.hotList .iconImg {
+  width: 35rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+
+/* 搜索内容展示 */
+.searchContent {
+  color: #d43c33;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  border-bottom: 1rpx solid #d43c33;
+
+}
+
+.searchItem {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+}
+
+
+.searchItem .content {
+  flex: 1;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 26rpx;
+}
+
+/* 搜索历史 */
+.history {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  line-height:  50rpx;
+  margin: 20rpx 0;
+}
+
+
+.history .title {
+  font-size: 28rpx;
+  height: 50rpx;
+}
+
+.history .historyItem {
+  height: 50rpx;
+  font-size: 26rpx;
+  background: #ededed;
+  margin-left: 20rpx;
+  padding: 0 30rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.history .delete {
+  position: absolute;
+  bottom: 10rpx;
+  right: 15rpx;
+  font-size: 36rpx;
+}
+
+
+
